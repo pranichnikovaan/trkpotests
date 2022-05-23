@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "main.security.jwt.JwtProperties",
+      "sourceType": "main.security.jwt.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "main.security.jwt.JwtProperties"
+    },
+    {
+      "name": "jwt.validity-in-ms",
+      "type": "java.lang.Long",
+      "sourceType": "main.security.jwt.JwtProperties"
+    }
+  ],
+  "hints": []
+}
